@@ -12,25 +12,25 @@ class City : NSObject {
     
     //MARK: Propriedades
     let nome : String
-    var temperatura : Int
+    var temperatura : Double
     var icone : UIImage?
-    var max : Int
-    var min : Int
-    var sensacao : Int
+    var max : Double
+    var min : Double
+   // var sensacao : Double
     var descricao : String
-    var chanceChuva : Int
+    //var chanceChuva : Double
     var vento : String
     
-    init(nome: String, temperatura: Int, icone: UIImage?, max: Int, min: Int, sensacao: Int, descricao: String, chanceChuva: Int, vento: String) {
+    init(nome: String, temperatura: Double, icone: UIImage?, max: Double, min: Double,  descricao: String, vento: String) {
         
     self.nome = nome
     self.temperatura = temperatura
     self.icone = icone
     self.max = max
     self.min = min
-    self.sensacao = sensacao
+    //self.sensacao = sensacao
     self.descricao = descricao
-    self.chanceChuva = chanceChuva
+   // self.chanceChuva = chanceChuva
     self.vento = vento
         
     
