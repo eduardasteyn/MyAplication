@@ -9,19 +9,23 @@
 import UIKit
 
 
+
 class TableViewController: UITableViewController {
 
     //MARK Propriedades
     
+  
+   // var cidade : City
     var cidades = [City]()
+    
+    var viewModel : ViewModel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
-
   
-
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
  
         return 1

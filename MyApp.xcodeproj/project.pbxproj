@@ -20,6 +20,7 @@
 		AB930FB42416874F00826433 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB930FB32416874F00826433 /* City.swift */; };
 		AB930FB62417D1DF00826433 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB930FB52417D1DF00826433 /* TableViewController.swift */; };
 		AB930FB82417D20D00826433 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB930FB72417D20D00826433 /* TableViewCell.swift */; };
+		AB930FBA241A702000826433 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB930FB9241A702000826433 /* ViewModel.swift */; };
 		C82A6B585C15F7CB44001CE8 /* Pods_MyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD6D4F78AF67C363F111A8D4 /* Pods_MyApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,7 @@
 		AB930FB32416874F00826433 /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		AB930FB52417D1DF00826433 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		AB930FB72417D20D00826433 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		AB930FB9241A702000826433 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		AD6D4F78AF67C363F111A8D4 /* Pods_MyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAADF2CE464F95C2E05A92B7 /* Pods-MyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyApp.debug.xcconfig"; path = "Target Support Files/Pods-MyApp/Pods-MyApp.debug.xcconfig"; sourceTree = "<group>"; };
 		D8F4CD5525FB84C594B768F1 /* Pods-MyAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MyAppTests/Pods-MyAppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				AB930F8D2416614B00826433 /* Info.plist */,
 				AB930FB52417D1DF00826433 /* TableViewController.swift */,
 				AB930FB72417D20D00826433 /* TableViewCell.swift */,
+				AB930FB9241A702000826433 /* ViewModel.swift */,
 			);
 			path = MyApp;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				AB930F842416614600826433 /* ViewController.swift in Sources */,
 				AB930F822416614600826433 /* AppDelegate.swift in Sources */,
 				AB930FB42416874F00826433 /* City.swift in Sources */,
+				AB930FBA241A702000826433 /* ViewModel.swift in Sources */,
 				AB930FB62417D1DF00826433 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
