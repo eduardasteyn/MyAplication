@@ -13,16 +13,15 @@ import UIKit
 class TableViewController: UITableViewController {
 
     //MARK Propriedades
-    
+    var icone : UIImage?
   
    // var cidade : City
-    var cidades = [City]()
+    //var cidades = [City]()
     
     var viewModel : ViewModel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
     }
   
     
@@ -41,16 +40,15 @@ class TableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "TableViewCell", for: indexPath) as? TableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "TableViewCell", for: indexPath) as! TableViewCell
         
         let cidade = cidades[indexPath.row]
         
-        cell?.cidade.text = cidade.nome
-        cell?.descricao.text = cidade.descricao
-        cell?.temperatura.text = String(cidade.temperatura)
-        cell?.icone.image = cidade.icone
+        cell.cidade.text = cidade.nome
+        cell.descricao.text = cidade.descricao
+        cell.temperatura.text = String(cidade.temperatura)
         
-        
-        return cell!
+        return cell
+            
     }
 }

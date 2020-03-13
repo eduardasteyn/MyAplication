@@ -21,7 +21,7 @@ class City : NSObject {
     
     var nome : String
     var temperatura : Double
-    var icone : UIImage?
+    var icone : Data?
     var urlIcone : String?
     var max : Double
     var min : Double
@@ -30,7 +30,7 @@ class City : NSObject {
     //var chanceChuva : Double
     var vento : String
     
-    init(nome: String, temperatura: Double, icone: UIImage?, urlIcone: String, max: Double, min: Double,  descricao: String, vento: String) {
+    init(nome: String, temperatura: Double, icone: Data, urlIcone: String, max: Double, min: Double,  descricao: String, vento: String) {
     
    
     self.nome = nome
